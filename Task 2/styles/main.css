@@ -1,0 +1,38 @@
+.fit-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: space-around;
+    background-color: crimson;
+}
+
+.fit-textbox{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+img{
+    border: 1px solid black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: brown;
+}
+
+label{
+    color: black;
+}
+
+button{
+    color: crimson;
+}
+
+input{
+    border: 1px blueviolet;
+}
