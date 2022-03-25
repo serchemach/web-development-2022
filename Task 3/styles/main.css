@@ -4,7 +4,7 @@
     flex-direction: column;
     border: 2px solid black;
     align-content: space-around;
-    background-color: crimson;
+    background-color: lightblue;
 }
 
 .fit-textbox{
@@ -20,19 +20,29 @@ img{
 
 body{
     display: flex;
+    align-items: center;
     justify-content: center;
     color: black;
     background-color: brown;
+    height: 100vh;
+    margin: 0px;
 }
 
 label{
     color: black;
 }
 
-button{
-    color: crimson;
+#submit-button{
+    color: blue;
 }
 
 input{
     border: 1px blueviolet;
+    border-radius: 5px;
 }
+
+.red{
+    border: 2px solid red;
+    color: red;
+}
+
