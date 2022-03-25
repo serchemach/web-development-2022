@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 2px solid black;
+    border: 2px solid grey;
     align-content: space-around;
     background-color: lightblue;
 }
@@ -46,3 +46,10 @@ input{
     color: red;
 }
 
+.night-body{
+    background-color: darkslategray;
+}
+
+.night-main{
+    background-color: darkcyan;
+}

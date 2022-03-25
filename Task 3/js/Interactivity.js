@@ -1,6 +1,9 @@
 const submitButton = document.querySelector("#submit-button");
 submitButton.addEventListener("click", SubmitHandler);
 
+const nightCheckbox = document.querySelector('[name="Night mode"]');
+nightCheckbox.addEventListener("click", NightCheckboxHandler);
+
 function SubmitHandler(){
     const usernameTextbox = document.querySelector("#username-textbox");
     const username = usernameTextbox.value;
@@ -27,4 +30,20 @@ function SubmitHandler(){
     }
 };
 
+function NightCheckboxHandler(){
+    const body = document.querySelector("body");
+    const fitMain = document.querySelector(".fit-main");
+
+    if(nightCheckbox.checked)
+    {
+        body.classList.add("night-body");
+        fitMain.classList.add("night-main");
+    }
+    else if(!nightCheckbox.checked)
+    {
+        body.classList.remove("night-body");
+        fitMain.classList.remove("night-main");
+    }
+
+};
 
