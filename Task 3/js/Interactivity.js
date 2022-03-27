@@ -1,10 +1,12 @@
 const submitButton = document.querySelector("#submit-button");
 submitButton.addEventListener("click", SubmitHandler);
 
+const form = document.querySelector(".fit-main")
+
 const nightCheckbox = document.querySelector('[name="Night mode"]');
 nightCheckbox.addEventListener("click", NightCheckboxHandler);
 
-function SubmitHandler(){
+function SubmitHandler(event){
     const usernameTextbox = document.querySelector("#username-textbox");
     const username = usernameTextbox.value;
     const passwordTextbox = document.querySelector("#password-textbox");
@@ -28,6 +30,13 @@ function SubmitHandler(){
     {
         passwordTextbox.classList.remove("red");
     }
+    
+    if(username.length >= 3 && password.length >= 3 && numberOfPasswordDigits >= 3)
+    {
+        form.submit()
+    }
+    console.log(event)
+    event.preventDefault()
 };
 
 function NightCheckboxHandler(){
