@@ -1,0 +1,55 @@
+.fit-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid grey;
+    align-content: space-around;
+    background-color: lightblue;
+}
+
+.fit-textbox{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+img{
+    border: 1px solid black;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: brown;
+    height: 100vh;
+    margin: 0px;
+}
+
+label{
+    color: black;
+}
+
+#submit-button{
+    color: blue;
+}
+
+input{
+    border: 1px blueviolet;
+    border-radius: 5px;
+}
+
+.red{
+    border: 2px solid red;
+    color: red;
+}
+
+.night-body{
+    background-color: darkslategray;
+}
+
+.night-main{
+    background-color: darkcyan;
+}
