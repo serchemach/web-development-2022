@@ -1,0 +1,89 @@
+.fit-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid grey;
+    border-radius:  50px;
+    align-content: space-around;
+    background-color: lightblue;
+}
+
+.fit-textbox{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img{
+    border: 1px solid black;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: brown;
+    height: 100vh;
+    margin: 0px;
+}
+
+label{
+    color: black;
+    margin: 5px;
+}
+
+input{
+    border: 1px blueviolet;
+    border-radius: 5px;
+}
+
+#submit-button{
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.red{
+    border: 2px solid red;
+    color: red;
+}
+
+.night-body{
+    background-color: darkslategray;
+}
+
+.night-main{
+    background-color: darkcyan;
+}
+
+a{
+    margin: 10%;
+}
+
+#night-checkbox{
+    display: inline-block;
+}
+
+.fit-checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+span{
+    overflow: hidden;
+}
+
+#username-textbox{
+    width: 100%;
+}
+
+#password-textbox{
+    width: 100%;
+}
