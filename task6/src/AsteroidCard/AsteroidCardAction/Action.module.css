@@ -1,0 +1,143 @@
+.action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+
+    position: absolute;
+    width: 17%;
+    height: 24%;
+    left: 80%;
+    top: 48%;
+
+    background: #186DD6;
+    border-radius: 24px;
+}
+
+
+.actionText{
+    position: static;
+    height: 41.7%;
+    left: 10.1266%;
+    right: 10.1266%;
+    top: calc(50% - 41.7%/2);
+    
+    /* Mobile / Сontrol Regular */
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+    line-height: 41.7%;
+    /* identical to box height, or 125% */
+    
+    
+    /* White Base */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.actionGrade{
+    position: absolute;
+    width: 8.7%;
+    height: 24%;
+    left: 84.5%;
+    top: 20%;
+    
+    /* Desktop / Body Regular */
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 150%;
+    /* or 150% */
+    
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #000000;
+}
+
+@media(max-width:920px){
+    .action{
+        /* Primary Adapt Btn */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 16px;
+
+        position: absolute;
+        width: 158px;
+        height: 48px;
+        left: 65px;
+        top: 321px;
+
+        /* Blue Base */
+
+        background: #186DD6;
+        border-radius: 24px;
+    }
+
+    .actionGrade{
+        /* Оценка:не опасен */
+
+        position: absolute;
+        width: 80px;
+        height: 48px;
+        left: 104px;
+        top: 265px;
+
+        /* Desktop / Body Regular */
+
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .actionText{
+        /* Text */
+
+        position: static;
+        height: 20px;
+        left: 16px;
+        right: 16px;
+        top: calc(50% - 20px/2);
+
+        /* Mobile / Сontrol Regular */
+
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 125% */
+
+
+        /* White Base */
+
+        color: #FFFFFF;
+    }
+}
