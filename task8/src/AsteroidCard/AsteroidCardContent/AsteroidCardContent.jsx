@@ -7,9 +7,9 @@ export const AsteroidCardContent = (props) =>{
                 <div className={styles.contentWrapper}>
                     <div className={styles.contentDate}>Дата: {date}</div>
                     <div className={styles.contentDistance}>
-                        Расстояние: {distanceMode?(distance/384400).toFixed(2):distance} {distanceMode?"дист. до луны":"км"}
+                        Расстояние: {distanceMode?(distance/384400).toFixed(2):(distance*1).toFixed(2)} {distanceMode?"дист. до луны":"км"}
                     </div>
-                    <div className={styles.contentSize}>Размер: {size} м</div>
+                    <div className={styles.contentSize}>Размер: {size.toFixed(2)} м</div>
                 </div>
             </div>)
 
