@@ -1,0 +1,17 @@
+.asteroidImage{
+    position: absolute;
+    width: 7.7%;
+    height: 36%;
+    left: 13.26%;
+    top: 14%;
+}
+
+@media(max-width:920px){
+    .asteroidImage{
+        position: absolute;
+        width: 61px;
+        height: 62px;
+        left: 27px;
+        top: 22px;
+    }
+}
