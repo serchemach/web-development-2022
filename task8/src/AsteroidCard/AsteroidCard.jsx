@@ -8,7 +8,7 @@ export const AsteroidCard = (props) =>{
 
     return (<div className={styles.card}>
             <div className={grade==="опасен"?styles.adaptSolver + " " + styles.cardRed:styles.adaptSolver}></div>
-                <AsteroidCardImage />
+                <AsteroidCardImage size={size} />
             <AsteroidCardContent name={name} date={date} distance={distance} size={size} distanceMode={distanceMode}/>
             <AsteroidCardAction grade={grade} /> 
         </div>)
