@@ -44,14 +44,14 @@ button.activeMode{
 }
 
 @media(max-width:920px){
+    .navbar{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+    }   
+
     .distanceMode{
         /* Расстояние в километрах, в дистанциях до луны */
-
-        position: relative;
-        width: 212px;
-        height: 48px;
-        left: 0px;
-        top: 10px;
 
         font-family: 'Helvetica';
         font-style: normal;

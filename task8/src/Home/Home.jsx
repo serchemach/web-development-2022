@@ -3,6 +3,7 @@ import { ASTEROID_DISTANCE_MODE_KM, ASTEROID_SHOW_MODE_ALL } from "../AsteroidCo
 import { AsteroidCardList } from "../AsteroidCardList/AsteroidCardList";
 import { Navbar } from "../Navbar/Navbar";
 import { GetAPIUrl, ConvertAPIDataToList } from "./ApiUtils";
+import styles from "./Home.module.css"
 
 export const Home = () => {
     const [asteroidsList, setAsteroidsList] = useState([{
@@ -25,7 +26,7 @@ export const Home = () => {
         })).catch((error)=>console.log(error))
     }, [])
 
-    return <div>
+    return <div className={styles.home}>
         <Navbar showParams={showParams} setShowParams={setShowParams} />
         <AsteroidCardList list={asteroidsList} showParams={showParams} />
     </div>
