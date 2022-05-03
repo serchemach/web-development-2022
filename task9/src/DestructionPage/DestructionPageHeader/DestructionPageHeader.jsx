@@ -10,7 +10,7 @@ export const DestructionPageHeader = () => {
         </div>
         
         <div className={styles.links}>
-            <Link to={'/'} style={{ color: "black"}}>Астероиды</Link>
+            <Link to={'/'} style={{ color: "black", marginRight: "20px"}}>Астероиды</Link>
             <Link to={'/toDestroy'} style={{ textDecoration: 'none', color: "black", fontWeight: "bold"}}>Уничтожение</Link>
         </div>
     </div>

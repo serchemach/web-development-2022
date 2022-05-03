@@ -31,15 +31,14 @@
     color: #000000;
 }
 
-.links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 22%;
-}
 
 @media(max-width: 920px){
     .title{
         width: 100%;
+    }
+
+    .homeHeader{
+        width: 100%;
+        flex-direction: column;
     }
 }

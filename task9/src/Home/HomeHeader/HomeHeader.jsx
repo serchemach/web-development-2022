@@ -11,7 +11,7 @@ export const HomeHeader = () => {
         
         <div className={styles.links}>
             <Link to={'/'} style={{ textDecoration: 'none', color: "black", fontWeight: "bold"}}>Астероиды</Link>
-            <Link to={'/toDestroy'} style={{ color: "black"}}>Уничтожение</Link>
+            <Link to={'/toDestroy'} style={{ color: "black", marginLeft: "20px"}}>Уничтожение</Link>
         </div>
     </div>
 }
