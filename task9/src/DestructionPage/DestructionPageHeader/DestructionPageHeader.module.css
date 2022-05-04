@@ -1,0 +1,44 @@
+.homeHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 920px;
+}
+
+.title{
+    width: 40%;
+}
+
+.name{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #000000;
+
+    white-space: nowrap;
+}
+
+.description{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+
+@media(max-width: 920px){
+    .title{
+        width: 100%;
+    }
+
+    .homeHeader{
+        width: 100%;
+        flex-direction: column;
+    }
+}

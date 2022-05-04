@@ -1,0 +1,4 @@
+export const ASTEROID_DISTANCE_MODE_KM = 0;
+export const ASTEROID_DISTANCE_MODE_LUNAR = 1;
+export const ASTEROID_SHOW_MODE_ALL = 0;
+export const ASTEROID_SHOW_MODE_DANGEROUS = 1;
