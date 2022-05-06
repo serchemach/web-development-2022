@@ -1,0 +1,197 @@
+.contentName {
+  position: absolute;
+  width: 100%;
+  height: 16%;
+  left: 37.7%;
+  top: 12%;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150%;
+  line-height: 150%;
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.contentWrapper {
+  position: absolute;
+  width: 31.4%;
+  height: 44%;
+  left: 37.7%;
+  top: 36%;
+}
+
+.contentDate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 100%;
+  height: 27.27%;
+  left: 0px;
+  top: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.contentDistance {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 100%;
+  height: 27.27%;
+  left: 0px;
+  top: 36.36%;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.contentSize {
+  /* Desktop Main Menu Item */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 289px;
+  height: 24px;
+  left: 0px;
+  top: 64px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+@media (max-width: 920px) {
+  .contentName {
+    /* 2021 FQ */
+
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    left: 16px;
+    top: 105px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
+
+  .contentWrapper {
+    /* Frame 2 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 255px;
+    height: 88px;
+    left: 16px;
+    top: 161px;
+  }
+
+  .contentDate {
+    /* Desktop Main Menu Item */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+
+    position: static;
+    width: 255px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+
+  .contentDistance {
+    /* Desktop Main Menu Item */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+
+    position: static;
+    width: 255px;
+    height: 24px;
+    left: 0px;
+    top: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .contentSize {
+    /* Desktop Main Menu Item */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+
+    position: static;
+    width: 255px;
+    height: 24px;
+    left: 0px;
+    top: 64px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+}
