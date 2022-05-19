@@ -1,0 +1,67 @@
+.card {
+    position: relative;
+    width: 920px;
+    height: 200px;
+    left: 4px;
+    top: 16px;
+    overflow: hidden;
+    /* Gradient Positive 2 */
+
+    background: white;
+    /* Black */
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+.adaptSolver {
+    position: relative;
+    width: 920px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+
+    background: linear-gradient(90deg, #cff37d 0%, #7de88c 100%);
+}
+
+.cardRed {
+    background: linear-gradient(90deg, #ffb199 0%, #ff0844 100%);
+}
+
+@media (max-width: 920px) {
+    .card {
+        position: relative;
+        width: 288px;
+        height: 391px;
+        left: 4px;
+        top: 16px;
+
+        overflow: hidden;
+        /* Black */
+
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .adaptSolver {
+        position: absolute;
+        width: 288px;
+        height: 145px;
+        left: 0px;
+        top: 0px;
+
+        /* Gradient Positive 2 */
+
+        background: linear-gradient(90deg, #cff37d 0%, #7de88c 100%);
+    }
+
+    .cardRed {
+        background: linear-gradient(90deg, #ffb199 0%, #ff0844 100%);
+    }
+}
