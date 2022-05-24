@@ -1,0 +1,58 @@
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.centerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    background-color: black;
+
+    width: 500px;
+    height: 1px;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+input:focus {
+    border-color: greenyellow;
+    box-shadow: 0 0 10px green;
+}
+
+.textBoxes {
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: grey;
+    margin-bottom: 10px;
+}
+
+.textBoxTitles {
+    align-self: flex-start;
+}
+
+.inputsFit {
+    left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginButton {
+    border-radius: 20px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
