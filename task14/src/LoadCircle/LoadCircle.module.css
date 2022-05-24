@@ -1,0 +1,41 @@
+@keyframes loadCircleAnimation {
+    from {
+        transform: rotate(0deg) scale(0.3);
+        animation-timing-function: ease-out;
+    }
+    50% {
+        transform: rotate(360deg) scale(1);
+        animation-timing-function: ease;
+    }
+    to {
+        transform: rotate(720deg) scale(0.3);
+        animation-timing-function: ease-in;
+    }
+}
+
+.loadCircle {
+    background: linear-gradient(#e6ac64, #bc137c);
+    border-radius: 50%;
+    animation: loadCircleAnimation 1.8s infinite;
+    will-change: transform;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadInnerCircle {
+    background-color: white;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.loadCirleContainer {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
