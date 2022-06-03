@@ -1,0 +1,12 @@
+.pageContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .cardContainer {
+        width: 1vw - 10px;
+    }
+}
