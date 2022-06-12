@@ -18,12 +18,9 @@ jobs:
       with:
         node-version: 16.x
 
-    - name: do stuff
-      run: echo test
-      working-directory: ./web-development-2022
-
     - name: Run the tests
       run: npm test
+      working-directory: ./web-development-2022
 
     - name: Build
       run: npm run build
