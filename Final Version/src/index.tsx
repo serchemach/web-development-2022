@@ -6,10 +6,10 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
     <div>
+        Stuff
         <BrowserRouter basename={"/web-development-2022/"}>
             <App />
         </BrowserRouter>
-        Stuff
     </div>,
     document.getElementById("root")
 );
