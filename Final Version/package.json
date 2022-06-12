@@ -1,6 +1,6 @@
 {
-    "homepage": "http://serchemach.github.io/web-development-2022",
-    "name": "my-app",
+    "homepage": "https://serchemach.github.io/web-development-2022/",
+    "name": "web-development-2022",
     "version": "0.1.0",
     "private": false,
     "dependencies": {
