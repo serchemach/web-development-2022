@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2 
       with:
-        path: client
+        path: web-development-2022
     - name: Set up Node.js
       uses: actions/setup-node@v1
       with:
