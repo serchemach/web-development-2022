@@ -91,4 +91,8 @@
     .extendedCard {
         height: 100%;
     }
+
+    .card:hover{
+        transform: scale(1);
+    }
 }
