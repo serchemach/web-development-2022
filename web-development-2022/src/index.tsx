@@ -6,7 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
     <div>
-        Stuff and stuff
         <BrowserRouter basename={"/web-development-2022/"}>
             <App />
         </BrowserRouter>
