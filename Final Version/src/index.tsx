@@ -5,8 +5,11 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-    <BrowserRouter basename={"web-development-2022/"}>
-        <App />
-    </BrowserRouter>,
+    <div>
+        <BrowserRouter basename={"/web-development-2022/"}>
+            <App />
+        </BrowserRouter>
+        Stuff
+    </div>,
     document.getElementById("root")
 );
