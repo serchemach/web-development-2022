@@ -11,6 +11,10 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     
+    defaults:
+      run:
+        working-directory: ./web-development-2022
+    
     strategy:
       matrix:
         node-version: [16.x]
@@ -23,10 +27,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-
+    
+    - name: Install dependencies
+      run: npm install
+    
     - name: Run the tests
       run: npm test
-      working-directory: ./web-development-2022
 
     - name: Build
       run: npm run build
