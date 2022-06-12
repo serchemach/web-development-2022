@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./web-development-2022
+        working-directory: web-development-2022
 
     strategy:
       matrix:
