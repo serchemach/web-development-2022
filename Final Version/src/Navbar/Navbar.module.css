@@ -1,0 +1,68 @@
+.navbar {
+    height: 20px;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.distanceChooser {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button.distanceChooser:hover {
+    text-decoration: none;
+}
+
+.distanceMode {
+    /* Расстояние в километрах, в дистанциях до луны */
+    /* justify-self: flex-end; */
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    color: #000000;
+}
+
+button.activeMode {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.showDangerousOnly {
+    cursor: pointer;
+}
+
+@media (max-width: 920px) {
+    .navbar {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .distanceMode {
+        /* Расстояние в километрах, в дистанциях до луны */
+
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        color: #000000;
+    }
+}

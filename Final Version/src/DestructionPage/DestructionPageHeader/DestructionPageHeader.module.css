@@ -1,0 +1,68 @@
+.asteroidsLink {
+    color: black;
+    margin-right: 20px;
+}
+
+.asteroidsLink:hover {
+    text-decoration: none;
+}
+
+.destructionLink {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.loginLink:hover {
+    text-decoration: none;
+}
+
+.homeHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 920px;
+}
+
+.centerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 40%;
+}
+
+.name {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #000000;
+
+    white-space: nowrap;
+}
+
+.description {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+@media (max-width: 920px) {
+    .title {
+        width: 100%;
+    }
+
+    .homeHeader {
+        width: 100%;
+        flex-direction: column;
+    }
+}
